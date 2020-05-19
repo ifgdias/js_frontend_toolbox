@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>RGB Selector</title>
+</head>
+<body>
+
+  <div class="rangeslider">
+    <p>(R) Vermelho: <input type="range" id="red_slider" min=0 max=255>
+      <input type="text" class="colorvalueindicator" value="128" id="red_value" disabled>
+    </p>
+    <p>(G) Verde: <input type="range" id="green_slider" min=0 max=255>
+      <input type="text" class="colorvalueindicator" value="128" id="green_value" readonly>
+    </p>
+    <p>(B) Azul: <input type="range" id="blue_slider" min=0 max=255>
+      <input type="text" class="colorvalueindicator" value="128" id="blue_value" readonly>
+    </p>
+  </div>
+
+  <div class="rgb_box"></div>
+  
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

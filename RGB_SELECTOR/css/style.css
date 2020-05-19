@@ -1,0 +1,26 @@
+body
+{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: medium;
+}
+
+
+.rgb_box
+{
+border: 2px solid rgb(243, 232, 230);
+width: 200px;
+height: 200px;
+}
+
+.rangeslider
+{
+  width: 50%;
+  opacity: 1;
+  align-items: flex-start;
+}
+
+.colorvalueindicator
+{
+  background-color: rgb(243, 232, 230);
+  width: 2rem;
+}
