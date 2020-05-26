@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Busca de usuários</title>
+</head>
+<body>
+  <div class="search-form container">
+    <div class="input-field col s6">
+      <input placeholder="Busca" id="str-search" type="text" class="validate" list="lastnames">
+    </div>
+      <a class="waves-effect waves-light btn">Buscar</a>
+  </div>
+  <div class="history container">
+     <div class="found"></div>
+  </div>
+  
+
+  <div class="lists container">
+     <div id="user-view"></div>
+     <div id="user-statistics"></div>
+  </div>
+
+  <script src="./js/script.js"></script>
+  <script src="./js/lodash.js"></script>
+</body>
+</html>
